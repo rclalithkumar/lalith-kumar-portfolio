@@ -184,7 +184,7 @@ function Navbar() {
         {/* Desktop Resume */}
 
         <a
-          href="/resume.pdf"
+          href="/R C Lalith Kumar_Resume.pdf"
           download
           className="
           hidden
@@ -283,7 +283,7 @@ function Navbar() {
 
 
           <a
-            href="/resume.pdf"
+            href="/R C Lalith Kumar_Resume.pdf"
             download
             className="
             rounded-xl
