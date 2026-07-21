@@ -46,7 +46,7 @@ function Projects() {
       "Image Processing",
     ],
     github:
-      "YOUR_WATERMARKING_GITHUB_LINK",
+      "https://github.com/rclalithkumar/BioMark.git",
   },
 
 
