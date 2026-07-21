@@ -34,7 +34,7 @@ function Hero() {
           </p>
 
 
-          <h1 className="text-5xl font-bold leading-tight md:text-7xl">
+          <h1 className="text-4xl font-bold leading-tight sm:text-5xl lg:text-7xl">
 
             Building
 
@@ -58,41 +58,41 @@ function Hero() {
 
 
 
-          <div className="mt-8 flex gap-4">
+          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
 
-<a href="#projects">
-  <Button>
-    View Projects
-  </Button>
-</a>
-
-
-<a
-href="#contact"
-className="
-rounded-xl
-border
-border-white/20
-px-6
-py-3
-text-sm
-font-medium
-transition
-hover:bg-white/10
-"
->
-Let's Connect
-</a>
+        <a href="#projects">
+          <Button>
+            View Projects
+          </Button>
+        </a>
 
 
-</div>
+        <a
+        href="#contact"
+        className="
+        rounded-xl
+        border
+        border-white/20
+        px-6
+        py-3
+        text-sm
+        font-medium
+        transition
+        hover:bg-white/10
+        "
+        >
+        Let's Connect
+        </a>
+
+
+        </div>
 
 
 
 
           {/* Stats */}
 
-          <div className="mt-12 grid grid-cols-3 gap-4">
+          <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-3">
 
 
             <div className="rounded-xl border border-white/10 bg-white/5 p-4">
@@ -146,258 +146,132 @@ Let's Connect
 
 
 
-        {/* AI Core */}
+    
 
         {/* AI Neural Core */}
 
 <motion.div
-
-  initial={{
-    opacity: 0,
-    scale: 0.8,
-  }}
-
-  animate={{
-    opacity: 1,
-    scale: 1,
-  }}
-
-  transition={{
-    duration: 1,
-  }}
-
-  className="flex justify-center"
-
+  initial={{ opacity: 0, scale: 0.8 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 1 }}
+  className="flex justify-center overflow-visible"
 >
+  <div
+    className="
+    relative
+    flex
+    aspect-square
+    w-[260px]
+    items-center
+    justify-center
+    sm:w-[320px]
+    lg:w-[384px]
+    mx-auto
+    "
+  >
+    {/* Outer Rotating Ring */}
+    <motion.div
+      animate={{ rotate: 360 }}
+      transition={{
+        duration: 20,
+        repeat: Infinity,
+        ease: "linear",
+      }}
+      className="
+        absolute
+        inset-0
+        rounded-full
+        border
+        border-cyan-400/20
+      "
+    />
+
+    {/* Second Ring */}
+    <motion.div
+      animate={{ rotate: -360 }}
+      transition={{
+        duration: 15,
+        repeat: Infinity,
+        ease: "linear",
+      }}
+      className="
+        absolute
+        h-[80%]
+        w-[80%]
+        rounded-full
+        border
+        border-purple-400/20
+      "
+    />
+
+    {/* Energy Glow */}
+    <div
+      className="
+        absolute
+        h-[70%]
+        w-[70%]
+        rounded-full
+        bg-gradient-to-r
+        from-cyan-400/20
+        to-purple-500/20
+        blur-3xl
+      "
+    />
+
+    {/* Core */}
+    <motion.div
+      animate={{
+        scale: [1, 1.05, 1],
+      }}
+      transition={{
+        duration: 3,
+        repeat: Infinity,
+      }}
+      className="
+        relative
+        flex
+        h-[58%]
+        w-[58%]
+        items-center
+        justify-center
+        rounded-full
+        border
+        border-white/20
+        bg-white/5
+        backdrop-blur-xl
+        shadow-2xl
+      "
+    >
+      <div className="text-center">
+        <h2
+          className="
+            text-5xl
+            font-bold
+            bg-gradient-to-r
+            from-cyan-400
+            to-purple-500
+            bg-clip-text
+            text-transparent
+            sm:text-6xl
+            lg:text-7xl
+          "
+        >
+          AI
+        </h2>
 
+        <p className="mt-2 text-xs text-gray-300 sm:text-sm">
+          Neural Core
+        </p>
+      </div>
+    </motion.div>
 
-<div className="
-relative
-flex
-h-96
-w-96
-items-center
-justify-center
-">
+    {/* Floating Nodes */}
+    <div className="absolute left-[8%] top-[20%] h-2 w-2 rounded-full bg-cyan-400 animate-ping sm:h-3 sm:w-3" />
 
+    <div className="absolute right-[8%] top-[32%] h-2 w-2 rounded-full bg-purple-400 animate-ping sm:h-3 sm:w-3" />
 
-
-{/* Outer Rotating Ring */}
-
-<motion.div
-
-animate={{
- rotate:360,
-}}
-
-transition={{
- duration:20,
- repeat:Infinity,
- ease:"linear",
-}}
-
-className="
-absolute
-h-full
-w-full
-rounded-full
-border
-border-cyan-400/20
-"
-
-/>
-
-
-
-
-
-{/* Second Ring */}
-
-<motion.div
-
-animate={{
- rotate:-360,
-}}
-
-transition={{
- duration:15,
- repeat:Infinity,
- ease:"linear",
-}}
-
-className="
-absolute
-h-80
-w-80
-rounded-full
-border
-border-purple-400/20
-"
-
-/>
-
-
-
-
-
-
-{/* Energy Glow */}
-
-<div
-
-className="
-absolute
-h-72
-w-72
-rounded-full
-bg-gradient-to-r
-from-cyan-400/20
-to-purple-500/20
-blur-3xl
-"
-
-/>
-
-
-
-
-
-
-
-{/* Core */}
-
-<motion.div
-
-animate={{
-
-scale:[
-1,
-1.05,
-1
-]
-
-}}
-
-transition={{
-
-duration:3,
-repeat:Infinity,
-
-}}
-
-className="
-relative
-flex
-h-56
-w-56
-items-center
-justify-center
-rounded-full
-border
-border-white/20
-bg-white/5
-backdrop-blur-xl
-shadow-2xl
-"
-
->
-
-
-<div className="text-center">
-
-
-<h2
-
-className="
-text-7xl
-font-bold
-bg-gradient-to-r
-from-cyan-400
-to-purple-500
-bg-clip-text
-text-transparent
-"
-
->
-
-AI
-
-</h2>
-
-
-<p className="
-mt-2
-text-sm
-text-gray-300
-">
-
-Neural Core
-
-</p>
-
-
-</div>
-
-
-</motion.div>
-
-
-
-
-
-
-{/* Floating Nodes */}
-
-
-<div
-className="
-absolute
-left-10
-top-20
-h-3
-w-3
-rounded-full
-bg-cyan-400
-animate-ping
-"
-/>
-
-
-
-<div
-className="
-absolute
-right-12
-top-32
-h-3
-w-3
-rounded-full
-bg-purple-400
-animate-ping
-"
-/>
-
-
-
-
-<div
-className="
-absolute
-bottom-24
-left-24
-h-2
-w-2
-rounded-full
-bg-white
-animate-pulse
-"
-/>
-
-
-
-</div>
-
-
+    <div className="absolute bottom-[18%] left-[24%] h-2 w-2 rounded-full bg-white animate-pulse" />
+  </div>
 </motion.div>
 
 
