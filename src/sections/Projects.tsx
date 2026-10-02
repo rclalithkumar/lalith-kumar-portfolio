@@ -19,7 +19,7 @@ function Projects() {
     description:
       "A project exploring Large Language Models and local AI inference using modern AI frameworks to build intelligent interactions.",
     tech: ["Python", "Ollama", "LLMs", "React"],
-    github: "In Development",
+    github: "https://github.com/rclalithkumar/prism.git",
     liveDemo: "Coming Soon",
   },
 
