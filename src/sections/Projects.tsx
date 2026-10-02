@@ -5,10 +5,10 @@ function Projects() {
   const projects = [
   {
     title: "NexaFlow AI",
-    type: "Generative AI Platform",
+    type: "LLM Chatbot",
     description:
       "An AI-powered application focused on intelligent automation and leveraging modern AI technologies to create smarter workflows.",
-    tech: ["React", "Node.js", "MongoDB", "Generative AI"],
+    tech: ["React", "Node.js", "MongoDB", "Generative AI","Express","Groq API"],
     github: "https://github.com/rclalithkumar/NexaFlow-AI.git",
     liveDemo: "https://nexaflow-ai-chatbot.vercel.app/",
   },
@@ -18,7 +18,7 @@ function Projects() {
     type: "LLM Based AI Application",
     description:
       "A project exploring Large Language Models and local AI inference using modern AI frameworks to build intelligent interactions.",
-    tech: ["Python", "Ollama", "LLMs", "React"],
+    tech: ["Python", "Ollama", "LLMs", "Streamlit", "Mistral"],
     github: "https://github.com/rclalithkumar/prism.git",
     liveDemo: "Coming Soon",
   },
@@ -28,7 +28,7 @@ function Projects() {
     type: "AI Security Research",
     description:
       "A security-focused system combining biometric authentication with digital watermarking techniques for secure information protection.",
-    tech: ["Python", "Machine Learning", "Image Processing"],
+    tech: ["React", "TypeScript", "Canvas API", "Web Crypto API"],
     github: "https://github.com/rclalithkumar/BioMark.git",
     liveDemo: "https://bio-mark-topaz.vercel.app/",
   },
