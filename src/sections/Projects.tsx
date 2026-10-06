@@ -3,6 +3,23 @@ import { motion } from "framer-motion";
 function Projects() {
 
   const projects = [
+  
+  {
+    title: "OpsLens",
+    type: "AI Incident Investigation Copilot",
+    description:
+      "An evidence-driven AI copilot that uses RAG, technical runbooks, incident history, and live web search to investigate production incidents and verify conclusions.",
+    tech: [
+      "Python",
+      "Streamlit",
+      "FAISS",
+      "Sentence Transformers",
+      "Groq",
+      "RAG"
+    ],
+    github: "https://github.com/rclalithkumar/opslens",
+    liveDemo: "https://opslens-5eaegotcusp7mmahahcd3a.streamlit.app/",
+  },
   {
     title: "NexaFlow AI",
     type: "LLM Chatbot",
