@@ -50,15 +50,6 @@ function Projects() {
     liveDemo: "https://bio-mark-topaz.vercel.app/",
   },
 
-  {
-    title: "Bakers Box Invoice System",
-    type: "Real Client Project",
-    description:
-      "A complete invoice generation solution developed for a bakery business with printable billing workflows and customized features.",
-    tech: ["React", "Tailwind CSS", "JavaScript"],
-    github: "https://github.com/rclalithkumar/bakersbox_invoice.git",
-    liveDemo: "https://bakersbox-invoice.vercel.app/",
-  },
 ];
 
 
