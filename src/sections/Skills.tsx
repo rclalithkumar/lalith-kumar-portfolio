@@ -3,52 +3,57 @@ import { motion } from "framer-motion";
 function Skills() {
 
   const skillGroups = [
-  {
-    title: "🤖 Artificial Intelligence",
-    skills: [
-      "Machine Learning",
-      "Generative AI",
-      "Large Language Models",
-      "Prompt Engineering",
-      "AI Agents",
-      "RAG Systems",
-    ],
-  },
+    {
+      title: "🤖 Artificial Intelligence",
+      skills: [
+        "Machine Learning",
+        "Generative AI",
+        "Large Language Models",
+        "RAG Systems",
+        "AI Agents",
+        "Prompt Engineering",
+        "Embeddings",
+        "Vector Search",
+      ],
+    },
 
-  {
-    title: "🐍 Programming Languages",
-    skills: [
-      "Python",
-      "Java",
-      "JavaScript",
-      "SQL",
-    ],
-  },
+    {
+      title: "🐍 Programming Languages",
+      skills: [
+        "Python",
+        "Java",
+        "JavaScript",
+        "SQL",
+      ],
+    },
 
-  {
-    title: "💻 Full Stack Development",
-    skills: [
-      "React.js",
-      "Node.js",
-      "REST APIs",
-      "Tailwind CSS",
-      "MongoDB",
-      "PostgreSQL",
-    ],
-  },
+    {
+      title: "💻 Full Stack Development",
+      skills: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "Tailwind CSS",
+        "MongoDB",
+        "PostgreSQL",
+      ],
+    },
 
-  {
-    title: "⚙️ Tools & Technologies",
-    skills: [
-      "Git & GitHub",
-      "VS Code",
-      "Oracle Database",
-      "Arduino",
-      "Ollama",
-      "Jupyter Notebook",
-    ],
-  },
-];
+    {
+      title: "⚙️ AI & Developer Tools",
+      skills: [
+        "Ollama",
+        "FAISS",
+        "Sentence Transformers",
+        "Groq",
+        "Streamlit",
+        "Git & GitHub",
+        "VS Code",
+        "Jupyter Notebook",
+      ],
+    },
+  ];
 
 
   return (

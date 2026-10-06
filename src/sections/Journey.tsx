@@ -13,34 +13,34 @@ function Journey() {
 
     {
       year: "2024 - 2025",
-      title: "Exploring Artificial Intelligence",
+      title: "Exploring AI & Machine Learning",
       place: "Machine Learning & Generative AI",
       description:
-        "Started exploring Machine Learning, Artificial Intelligence, and Generative AI through projects, certifications, and hands-on experimentation.",
+        "Started exploring Machine Learning, Generative AI, and Large Language Models through certifications, projects, and hands-on experimentation.",
     },
 
     {
       year: "2025",
-      title: "AI & Full Stack Projects",
+      title: "AI & Full Stack Development",
       place: "Building Real-World Applications",
       description:
-        "Developed AI-based applications, full-stack projects, and automation solutions by combining intelligent models with practical software systems.",
+        "Built AI-powered applications, LLM chatbots, and full-stack systems by combining intelligent models with practical software engineering.",
     },
 
     {
-      year: "2025",
-      title: "NPTEL Certifications",
-      place: "Machine Learning & Compiler Design",
+      year: "2026",
+      title: "AI Engineering & Research",
+      place: "RAG, LLMs & Intelligent Systems",
       description:
-        "Completed NPTEL certifications in Machine Learning and Compiler Design to strengthen technical knowledge and computer science fundamentals.",
+        "Developed OpsLens, an evidence-driven AI incident investigation copilot, and presented PRISM research at ICAECT 2026.",
     },
 
     {
       year: "Future Goal",
-      title: "AI Engineer Goal",
-      place: "Generative AI & Intelligent Systems",
+      title: "AI/GenAI Engineer",
+      place: "LLMs • RAG • AI Agents",
       description:
-        "Focused on building scalable AI applications, exploring LLMs, AI agents, and creating impactful AI-driven solutions.",
+        "Focused on building scalable AI applications and intelligent systems that solve real-world problems.",
     },
   ];
 

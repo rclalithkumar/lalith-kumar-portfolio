@@ -34,8 +34,8 @@ function Projects() {
     title: "Prism",
     type: "LLM Based AI Application",
     description:
-      "A project exploring Large Language Models and local AI inference using modern AI frameworks to build intelligent interactions.",
-    tech: ["Python", "Ollama", "LLMs", "Streamlit", "Mistral"],
+      "A privacy-focused digital twin using local LLM inference and long-term contextual memory to create personalized AI interactions.",
+    tech: ["Python", "Ollama", "Mistral", "FAISS", "Streamlit"],
     github: "https://github.com/rclalithkumar/prism.git",
     liveDemo: "Coming Soon",
   },

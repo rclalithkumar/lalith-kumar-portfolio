@@ -30,7 +30,7 @@ function Hero() {
         >
 
           <p className="mb-5 text-sm uppercase tracking-[0.3em] text-cyan-400">
-            AI Engineer • Generative AI • Machine Learning
+            AI/GenAI Engineer • LLMs • RAG • AI Agents
           </p>
 
 
@@ -112,7 +112,7 @@ function Hero() {
             <div className="rounded-xl border border-white/10 bg-white/5 p-4">
 
               <h3 className="text-2xl font-bold">
-                5+
+                4+
               </h3>
 
               <p className="text-sm text-gray-400">
@@ -131,7 +131,7 @@ function Hero() {
               </h3>
 
               <p className="text-sm text-gray-400">
-                AI Research Areas
+                AI/ML Certifications
               </p>
 
             </div>

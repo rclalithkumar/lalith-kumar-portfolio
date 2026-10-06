@@ -57,13 +57,14 @@ function About() {
 
             <p className="leading-relaxed text-gray-300">
 
-            I am a Computer Science Engineering student at AMC Engineering College
-            with a strong interest in Artificial Intelligence, Machine Learning,
-            and Generative AI.
+            I am a Computer Science Engineering student at AMC Engineering College focused on
+            Artificial Intelligence, Generative AI, and AI Engineering. I build practical applications
+            using Large Language Models, RAG, local AI, and full-stack technologies.
 
-            My journey involves building AI-powered applications, exploring
-            Large Language Models, and developing software solutions that combine
-            intelligence with practical usability.
+            My projects include AI-powered incident investigation, customer support automation,
+            privacy-focused digital twins, and biometric security systems. I enjoy turning AI
+            concepts into usable software and continuously explore LLMs, AI agents, retrieval
+            systems, and intelligent automation.
 
             </p>
 

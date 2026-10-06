@@ -67,9 +67,8 @@ function Contact() {
 
           <p className="mx-auto mt-5 max-w-2xl text-gray-400">
 
-            I am always interested in discussing Artificial Intelligence,
-            Generative AI, software projects, and opportunities to learn,
-            collaborate, and build impactful solutions.
+            I'm open to opportunities in AI/GenAI engineering, software development, 
+            and collaborative projects. Let's connect and build something impactful.
 
           </p>
 
